@@ -1,0 +1,175 @@
+html{
+    scroll-behavior: smooth;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body{
+    margin: 0px;
+    background-color: #000000;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    
+}
+.headerOptions{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    position: sticky;   
+    top: 0;
+    border-bottom: white solid 5px; 
+    width: auto;
+    
+}
+.header{
+    background-color: black;
+    padding: 100px;
+    
+}
+#logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+#info, #coffee, #menu, #program{
+    color: whitesmoke;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'Eagle Lake', cursive;
+
+}
+#facebook:hover{
+    opacity:0.7;
+  filter:alpha(opacity=70);
+  box-shadow: 0 0 0px #000000;
+  transition: 0.3s;
+}
+#ig:hover{
+    opacity:0.7;
+  filter:alpha(opacity=70);
+  box-shadow: 0 0 0px #000000;
+  transition: 0.3s;
+}
+#info:hover, #coffee:hover, #menu:hover, #program:hover{
+    color: #a5b0b5;
+    transition: 0.3s;
+}
+#skaldText{
+    font-family: 'Eagle Lake', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 20px;
+    background-color: black;
+}
+.infoTitle{
+    border-right: white solid 5px;
+    
+
+}
+#infoTitleText{
+    font-family: 'Eagle Lake', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding: 40px;
+    
+    
+    
+}
+#infoText{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Suravaram', serif;
+    
+}
+.coffee{
+    background-color: white;
+    align-items: center;
+    height: 600px;
+}
+
+#roastText{
+    font-size: 25px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 50px;    
+    font-family: 'Suravaram', serif;
+    text-align: center;
+    
+}
+.coffees{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+#beansmiths{
+    width: 800px;
+    padding: 30px;
+}
+.menu{
+    height: 1000px;
+    padding-top: 100px;
+    
+}
+#menuTitle{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Eagle Lake', cursive;
+    
+}
+#event{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#programTitle{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Eagle Lake', cursive;    
+    
+}
+@media (max-width: 300px){
+    .headerOptions{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        margin: 0px;
+        width: auto;
+        position: sticky;   
+        top: 0;
+        border-bottom: white solid 5px; 
+        
+    }
+}
